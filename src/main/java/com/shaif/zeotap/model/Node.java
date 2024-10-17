@@ -9,8 +9,8 @@ public class Node {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String type;  // operator or operand
-    private String value; // value for operand nodes
+    private String type;  
+    private String value; 
 
     @ManyToOne(cascade = CascadeType.ALL)
     private Node left;
@@ -18,7 +18,7 @@ public class Node {
     @ManyToOne(cascade = CascadeType.ALL)
     private Node right;
 
-    // Manually define getter and setter for 'type'
+    
     public String getType() {
         return type;
     }
@@ -27,7 +27,6 @@ public class Node {
         this.type = type;
     }
 
-    // Manually define getter and setter for 'value'
     public String getValue() {
         return value;
     }
