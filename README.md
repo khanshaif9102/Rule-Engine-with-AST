@@ -20,7 +20,7 @@ This project implements a Rule Engine using Abstract Syntax Trees (AST). The eng
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/rule-engine-ast.git
+   git clone https://github.com/khanshaif9102/Rule-Engine-with-AST.git
 2. Set up MySQL and create a database called rule_engine_db.
 
 3. Update the application.properties file located in src/main/resources with your MySQL credentials:
